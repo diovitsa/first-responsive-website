@@ -1,0 +1,153 @@
+@font-face { 
+    font-family: 'Kaushan Script';       /* название одно */ 
+    src: url('../fonts/KaushanScript-Regular.otf'); 
+  } 
+.kaushan{
+    font-family: Kaushan Script;
+}
+.mnt{
+    font-family: Montserrat;
+}
+.rbt{
+    font-family: Roboto;
+}
+.bold{
+    font-weight: bold;
+}
+.light{
+    font-weight: lighter;
+}
+.upc{
+    text-transform: uppercase;
+}
+.light-black{
+    color:#333333;
+}
+.grey{
+    color:#999999;
+}
+.red{
+    color:#F38181;
+    padding: 1% 0;
+}
+.very-small{
+    font-size: 11px;
+}
+.small{
+    font-size: 12px;
+}
+.medium{
+    font-size: 13px;
+}
+.big{
+    font-size: 15px;
+}
+.logo{
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+.top-list li a, .menu-toggle{
+    font:normal 0.7em Montserrat;
+    color:white;
+}
+.top-list li a:hover{
+	color:#fce38a;
+} 
+.top-list{
+    text-align: center;
+}
+.white{
+    color:white;
+}
+.upper{
+    font-size:2.25em;
+}
+.lower{
+    font-weight: bold;
+    font-size:4.6875em;
+    max-width: 50%;
+    line-height: 0.9em;
+    padding: 2.5% 0 5% 0;
+}
+.cuted{
+    max-width: 65%;
+    padding: 4% 0;
+}
+.space{
+    padding:1% 0;
+}
+.more-space{
+    padding: 5% 0 15% 0;
+}
+.pad{
+    padding: 4% 0;
+}
+.number{
+    font-size:2.25em;
+}
+.categorie{
+    font-size:0.5em;
+    text-transform: uppercase;
+}
+.svc{
+    font-size: 0.7em;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 425px) {
+    .menu-toggle{
+        font-size: 1em;
+    }
+    .upper{
+        font-size:1.5em;
+    }
+    .lower{
+        font-size:1.8em;
+    }
+    .cuted{
+        max-width: 75%;
+    }
+    .medium{
+        font-size: 12px;
+    }
+    .small{
+        font-size: 11px;
+    }
+    .big{
+        font-size: 14px;
+    }
+}
+/* Tablet Styles */
+   @media only screen and (min-width: 426px) and (max-width: 960px) {
+    .upper{
+        font-size:1.8em;
+    }
+    .lower{
+        font-size:3em;
+        max-width: 40%;
+    }
+
+   }
+/* Desktop Styles */
+   @media only screen and (min-width: 961px) {
+   
+   
+   }
+/* Avarage */
+   @media only screen and (min-width: 426px) and (max-width: 680px) {
+    .upper{
+        font-size:1.8em;
+    }
+    .lower{
+        font-size:2.3em;
+        max-width: 50%;
+    }
+    .medium{
+        font-size: 11px;
+    }
+    .small{
+        font-size: 10px;
+    }
+    .big{
+        font-size: 13px;
+    }
+   }
